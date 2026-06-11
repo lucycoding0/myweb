@@ -1,8 +1,100 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>hi</title>
-  </head>
-  <body>
-  <h1>안녕하세요</h1>
-  </body>
+    <head>
+        <title>시 한편 배포 예제</title>
+        <meta name="viewport" content="user-scalable-no,initial-scale=1,maximum-scale=1">
+
+        <style>
+            @font-face {
+                font-family: 'BinggreIi';
+                src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff');
+                font-weight: 700;
+                font-display: swap;
+            }
+
+            .paragraph1 { font-family: "BinggreIi", serif }
+
+            @font-face {
+                font-family: 'TheJamsil5Bold';
+                src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+                font-weight: 700;
+                font-style: normal;
+                }
+
+            .paragraph2 { font-family: "TheJamsil5Bold", serif }
+
+            @media screen {
+                body { background-color: azure; }
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            body {
+                margin: 0 auto;
+                margin-top: 20px;
+                width: 400px;
+            }
+
+            #section1 {
+                margin: 30px;
+                float: right;
+            }
+
+            #section2 {
+                margin: 30px;
+                float: center;
+            }
+            
+            #section3 {
+                margin-left: 200px;
+                float: center;
+            }
+
+            #container {
+                width: 500px; height: 400px;
+                background: linear-gradient(45deg, #90ee90 0%, #00bfff 100%);
+
+                position: center;
+                margin-top: 150px;
+                border-radius: 20px;
+            }
+
+            h1 {
+                padding-top: 20px;
+                color: #4682e4;
+            }
+
+            p {
+                color: #000080;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="section3">
+                <h1 class="paragraph2">어느 날</h1>
+            </div>
+            <div id="section1">
+                <p>김용택</p>
+            </div>
+            <br>
+            <div id="section2">
+                <p class="paragraph1">
+                    나는<br>
+                    어느 날이라는 말이 좋다.<br><br>
+                    어느 날 나는 태어났고<br>
+                    어느 날 당신도 만났으니까.<br><br>
+                    그리고<br>
+                    오늘도 어느 날이니까.<br><br>
+                    나의 시는<br>
+                    어느 날의 일이고<br>
+                </p>
+            </div>
+        </div>
+    </body>
 </html>
